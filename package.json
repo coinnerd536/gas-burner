@@ -1,0 +1,23 @@
+{
+  "name": "gas-burner",
+  "version": "1.0.0",
+  "description": "Generate diverse on-chain activity on any EVM testnet. Deploy, transfer, mint, store — build a rich wallet profile for airdrop farming.",
+  "main": "index.js",
+  "bin": {
+    "gas-burner": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["testnet", "gas", "farming", "airdrop", "evm", "transactions", "cli", "ethereum"],
+  "author": "coinnerd536",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.0.0",
+    "solc": "^0.8.28"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coinnerd536/gas-burner.git"
+  }
+}
