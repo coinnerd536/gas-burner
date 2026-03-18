@@ -24,6 +24,9 @@ const CHAINS = {
   'monad':          { rpc: 'https://testnet-rpc.monad.xyz', name: 'Monad Testnet' },
   'megaeth':        { rpc: 'https://carrot.megaeth.com/rpc', name: 'MegaETH Testnet' },
   'tempo':          { rpc: 'https://rpc.moderato.tempo.xyz', name: 'Tempo Testnet' },
+  'unichain':       { rpc: 'https://sepolia.unichain.org', name: 'Unichain Sepolia' },
+  'soneium':        { rpc: 'https://rpc.minato.soneium.org', name: 'Soneium Minato' },
+  'ink':            { rpc: 'https://rpc-gel-sepolia.inkonchain.com', name: 'Ink Sepolia' },
 };
 
 // Minimal multi-purpose contract — handles storage, events, minting, messaging
